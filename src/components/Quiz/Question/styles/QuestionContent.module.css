@@ -1,0 +1,52 @@
+.content {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 754px;
+  margin-top: 40px;
+  display: flex;
+}
+
+.title {
+  color: #fdf3f3;
+  text-align: center;
+  -webkit-text-stroke: 5px #000;
+  margin-bottom: 24px;
+  font-family: Poppins, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.imageWrapper {
+  width: 100%;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.mainImage {
+  border: 1px solid #7c63ab;
+  border-radius: 16px;
+  width: 100%;
+}
+
+.imageControls {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+@media (width <= 991px) {
+  .content {
+    max-width: 90%;
+  }
+}
+
+@media (width <= 640px) {
+  .title {
+    font-size: 28px;
+  }
+}

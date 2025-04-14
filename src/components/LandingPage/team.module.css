@@ -1,0 +1,29 @@
+.teamSection {
+  text-align: center;
+  padding: 100px 150px;
+}
+
+.title {
+  background-color: #8ac4d0c2;
+  color: #1e0946;
+  border-radius: 76px;
+  margin-bottom: 50px;
+  padding: 20px 40px;
+  font-family: Poppins, sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.teamImage {
+  border-radius: 30px;
+  width: 100%;
+  margin: 40px 0;
+  box-shadow: inset 0 7px 21.2px #00000040;
+}
+
+@media (width <= 640px) {
+  .title {
+    font-size: 48px;
+  }
+}

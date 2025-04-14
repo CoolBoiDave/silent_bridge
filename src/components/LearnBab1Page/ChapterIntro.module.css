@@ -1,0 +1,65 @@
+.intro {
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 0 60px;
+  padding: 0;
+}
+
+.chapterTitle {
+  box-sizing: border-box;
+  margin: 0 0 20px;
+  padding: 0;
+  font-size: 96px;
+  font-weight: 700;
+}
+
+.chapterSubtitle {
+  box-sizing: border-box;
+  margin: 0 0 20px;
+  padding: 0;
+  font-size: 64px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.description {
+  box-sizing: border-box;
+  max-width: 1656px;
+  margin: 0 auto 40px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 47px;
+}
+
+.backButton {
+  box-sizing: border-box;
+  color: #1e4f75;
+  cursor: pointer;
+  background-color: #8ac4d0;
+  border: none;
+  border-radius: 50px;
+  margin: 0;
+  padding: 20px 60px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+@media (width <= 640px) {
+  .chapterTitle {
+    font-size: 48px;
+  }
+
+  .chapterSubtitle {
+    font-size: 32px;
+  }
+
+  .description {
+    font-size: 24px;
+  }
+
+  .backButton {
+    padding: 15px 30px;
+    font-size: 32px;
+  }
+}

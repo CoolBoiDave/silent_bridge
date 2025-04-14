@@ -1,0 +1,51 @@
+.optionsContainer {
+	flex-direction: column;
+	gap: 10px;
+	width: 100%;
+	max-width: 327px;
+	display: flex;
+}
+
+.optionButton {
+	background-color: #374664;
+	border: 0.5px solid #7c63ab;
+	border-radius: 18px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px 16px;
+	display: flex;
+	width: 100%;
+	cursor: pointer;
+}
+
+.optionButtonDisabled {
+	cursor: default;
+}
+
+.optionButtonChecked {
+	background-color: #2c135c;
+}
+
+.optionButtonCorrect {
+	background-color: #16572f;
+	border: 0.5px solid #35ad05;
+}
+
+.optionButtonWrong {
+	background-color: #571616;
+	border: 0.5px solid #ad0505;
+}
+
+.optionText {
+	color: #fcfcfc;
+	font-family: Poppins, sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+@media (width <= 640px) {
+	.optionsContainer {
+		width: 100%;
+		max-width: 90%;
+	}
+}

@@ -1,0 +1,139 @@
+.mainContent {
+	margin-top: 150px;
+	width: 100%;
+}
+
+.contentGrid {
+	gap: 20px;
+	display: flex;
+	justify-content: center;
+	padding: 0 80px;
+}
+
+.imageColumn {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	line-height: normal;
+	width: 44%;
+	margin-left: 0;
+}
+
+.mainImage {
+	aspect-ratio: 1.29;
+	object-fit: contain;
+	object-position: center;
+	width: 100%;
+	flex-grow: 1;
+}
+
+.textColumn {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	line-height: normal;
+	width: 56%;
+	margin-left: 20px;
+}
+
+.textContent {
+	display: flex;
+	margin-top: 112px;
+	flex-direction: column;
+	align-items: flex-end;
+	font-family: Poppins, -apple-system, Roboto, Helvetica, sans-serif;
+	text-align: center;
+	letter-spacing: 0.5px;
+}
+
+.chapterTitle {
+	font-size: 96px;
+	font-weight: 700;
+	line-height: 0;
+	align-self: end;
+}
+
+.sectionTitle {
+	font-size: 64px;
+	font-weight: 600;
+	line-height: 0;
+	margin-top: 91px;
+}
+
+.description {
+	color: rgba(0, 0, 0, 1);
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 47px;
+	text-align: right;
+	align-self: stretch;
+	margin-top: 40px;
+}
+
+.backButton {
+	border-radius: 50px;
+	background-color: rgba(138, 196, 208, 1);
+	margin-top: 27px;
+	margin-right: 23px;
+	padding: 38px 68px;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 0;
+	cursor: pointer;
+	border: none;
+}
+
+@media (max-width: 991px) {
+	.mainContent {
+		max-width: 100%;
+	}
+
+	.contentGrid {
+		flex-direction: column;
+	}
+
+	.imageColumn {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.textColumn {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.textContent {
+		margin-top: 40px;
+		max-width: 100%;
+	}
+
+	.chapterTitle {
+		font-size: 40px;
+		margin-right: 10px;
+	}
+
+	.sectionTitle {
+		font-size: 40px;
+		margin-top: 40px;
+	}
+
+	.backButton {
+		font-size: 40px;
+		margin-right: 10px;
+		padding: 20px;
+	}
+}
+
+@media (max-width: 640px) {
+	.chapterTitle {
+		font-size: 36px;
+	}
+
+	.sectionTitle {
+		font-size: 32px;
+	}
+
+	.description {
+		font-size: 24px;
+	}
+}

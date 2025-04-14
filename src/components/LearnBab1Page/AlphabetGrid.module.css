@@ -1,0 +1,20 @@
+.grid {
+  box-sizing: border-box;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin: 0 0 60px;
+  padding: 0;
+  display: grid;
+}
+
+@media (width <= 991px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width <= 640px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

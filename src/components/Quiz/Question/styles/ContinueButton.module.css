@@ -1,0 +1,27 @@
+.continueButton {
+	color: #1b0404;
+	text-align: center;
+	cursor: pointer;
+	background-color: #f6d244;
+	border: 0.5px solid #7c63ab;
+	border-radius: 18px;
+	width: 327px;
+	margin-top: 40px;
+	padding: 16px;
+	font-family: Poppins, sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	box-shadow: 0 3px 6px #0000005e;
+}
+
+.continueButton:disabled {
+	background-color: #9688af;
+	color: #ffffff75;
+}
+
+@media (width <= 640px) {
+	.continueButton {
+		width: 100%;
+		max-width: 90%;
+	}
+}

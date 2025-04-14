@@ -1,0 +1,16 @@
+.platform {
+	background-image: url("https://i.ibb.co.com/cSLCTS68/original-df1f3033f69bd8c1d1681164eb2f9279.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: scroll;
+
+	background-color: #fff;
+	width: 100vw;
+	min-height: 100vh;
+	font-family: Poppins, sans-serif;
+}
+
+.content {
+	padding: 0;
+}

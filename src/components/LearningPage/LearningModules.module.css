@@ -1,0 +1,23 @@
+.modulesSection {
+  background-image: url('https://i.ibb.co.com/cSLCTS68/original-df1f3033f69bd8c1d1681164eb2f9279.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 80px 300px;
+}
+
+.modulesGrid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+}
+
+@media (width <= 991px) {
+  .modulesGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,30 @@
+.container {
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	margin-top: 100px;
+	background-color: #fffaef;
+}
+
+.content {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 40px 158px;
+}
+
+@media (width <= 991px) {
+	.container {
+		max-width: 991px;
+	}
+
+	.content {
+		padding: 20px;
+	}
+}
+
+@media (width <= 640px) {
+	.container {
+		max-width: 640px;
+	}
+}
